@@ -33,37 +33,45 @@ const projects = [
       "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751392321/Screenshot_2025-07-01_113331_zgwncz.png",
   },
   {
-    "title": "Mvideos - Django Video Sharing Platform",
-    "description": "A YouTube-style video sharing platform built with Django, featuring user authentication, video uploads (reels), profile management, and content interaction capabilities.",
-    "techStack": ["Django", "Python", "SQLite", "HTML/CSS", "JavaScript"],
-    "githubLink": "https://github.com/yashwantkr002/Mvideos",
-    "liveDemoLink": "https://sonarai002.pythonanywhere.com/",
-    "image": "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751395596/OIP-3925110786_suv5ip.jpg"
-},
+    title: "Mvideos - Django Video Sharing Platform",
+    description:
+      "A YouTube-style video sharing platform built with Django, featuring user authentication, video uploads (reels), profile management, and content interaction capabilities.",
+    techStack: ["Django", "Python", "SQLite", "HTML/CSS", "JavaScript"],
+    githubLink: "https://github.com/yashwantkr002/Mvideos",
+    liveDemoLink: "https://sonarai002.pythonanywhere.com/",
+    image:
+      "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751395596/OIP-3925110786_suv5ip.jpg",
+  },
   {
-    "title": "Currency Converter Application",
-    "description": "A responsive currency converter built with React that provides real-time exchange rates and seamless conversion between multiple global currencies.",
-    "techStack": ["React", "Vite", "JavaScript", "CSS"],
-    "githubLink": "https://github.com/yashwantkr002/CurrencyApp/tree/main",
-    "liveDemoLink": "https://currency-app-gamma.vercel.app/",
-    "image": "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751434265/Screenshot_2025-07-02_105820_pjzuxh.png"
-},
+    title: "Currency Converter Application",
+    description:
+      "A responsive currency converter built with React that provides real-time exchange rates and seamless conversion between multiple global currencies.",
+    techStack: ["React", "Vite", "JavaScript", "CSS"],
+    githubLink: "https://github.com/yashwantkr002/CurrencyApp/tree/main",
+    liveDemoLink: "https://currency-app-gamma.vercel.app/",
+    image:
+      "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751434265/Screenshot_2025-07-02_105820_pjzuxh.png",
+  },
   {
-    "title": "Modern TodoList App",
-    "description": "A beautiful, responsive todo application with local storage persistence, featuring modern UI/UX with animations, glassmorphism effects, and full CRUD functionality.",
-    "techStack": ["React", "Vite", "Tailwind CSS", "JavaScript"],
-    "githubLink": "https://github.com/yashwantkr002/TodoList",
-    "liveDemoLink": "http://localhost:5173",
-    "image": "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751436443/Screenshot_2025-07-02_113654_bumdhg.png"
-},
+    title: "Modern TodoList App",
+    description:
+      "A beautiful, responsive todo application with local storage persistence, featuring modern UI/UX with animations, glassmorphism effects, and full CRUD functionality.",
+    techStack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+    githubLink: "https://github.com/yashwantkr002/TodoList",
+    liveDemoLink: "http://localhost:5173",
+    image:
+      "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751436443/Screenshot_2025-07-02_113654_bumdhg.png",
+  },
   {
-    "title": "Modern Web Music Player",
-    "description": "A responsive music player with sleek UI featuring neumorphic design, smooth animations, and full playback controls. Supports playlist management and keyboard navigation.",
-    "techStack": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    "githubLink": "https://github.com/yashwantkr002/music",
-    "liveDemoLink": "https://yashwantkr002.github.io/music/",
-    "image": "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751437950/Screenshot_2025-07-02_120203_np0kis.png"
-}
+    title: "Modern Web Music Player",
+    description:
+      "A responsive music player with sleek UI featuring neumorphic design, smooth animations, and full playback controls. Supports playlist management and keyboard navigation.",
+    techStack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    githubLink: "https://github.com/yashwantkr002/music",
+    liveDemoLink: "https://yashwantkr002.github.io/music/",
+    image:
+      "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751437950/Screenshot_2025-07-02_120203_np0kis.png",
+  },
 
   // Add more projects as needed
 ];
@@ -133,10 +141,12 @@ const Projects = () => {
       </div>
 
       <div className="mt-12 text-center">
-        <button 
+        <button
           className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300"
-          onClick={() => navigate('/journey')}
-         >More Projects</button>
+          onClick={() => navigate("/journey")}
+        >
+          More Projects
+        </button>
       </div>
     </section>
   );
