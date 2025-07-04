@@ -58,7 +58,7 @@ const projects = [
       "A beautiful, responsive todo application with local storage persistence, featuring modern UI/UX with animations, glassmorphism effects, and full CRUD functionality.",
     techStack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
     githubLink: "https://github.com/yashwantkr002/TodoList",
-    liveDemoLink: "http://localhost:5173",
+    liveDemoLink: "https://todo-list-omega-seven-97.vercel.app/",
     image:
       "https://res.cloudinary.com/dtnli5lxb/image/upload/v1751436443/Screenshot_2025-07-02_113654_bumdhg.png",
   },
